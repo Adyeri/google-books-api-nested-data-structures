@@ -22,8 +22,9 @@ def get_data_from_api
 	sample_parsedResponse = JSON.parse(sample_response.body, {:symbolize_names => true}) #makes data easy to read
 	sample_parsedResponse[:items][0] #returns first element in items array
 end
+```
 
-## Instructions
+# Instructions
 
 Fork and clone this lab, and run `bundle install` in the command line.
 
